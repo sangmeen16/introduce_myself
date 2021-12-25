@@ -1,0 +1,161 @@
+@font-face {
+  font-family: abster;
+  src: url(font/abster-webfont.woff) format("woff");
+}
+
+.mbox-1 {
+  width: 100%;
+  height: 100vh;
+  background: url(dark1.png);
+}
+
+.mbox-1 .mbox-2 {
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mbox-1 .mbox-2 h1 {
+  text-decoration: none;
+  color: white;
+  font-family: abster;
+}
+
+.mbox-1 .mbox-3 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mbox-1 .mbox-3 h2 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.mbox-1 .mbox-3 p {
+  font-size: 22px;
+}
+
+.mbox-1 .mbox-3 button {
+  background: none;
+  border: 2px solid rgb(231, 240, 231);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin-top: 30px;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.mbox-1 .mbox-3 button:hover {
+  background-color: rgb(169, 200, 200);
+}
+
+body {
+  margin: 0;
+}
+ul > li {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+.box-1 .box-2 .box-3 {
+  width: 300px;
+}
+.img-box > img {
+  width: 100%;
+  display: block;
+}
+.box-1 > img:last-child {
+  display: none;
+}
+.box-1:hover > img:last-child {
+  display: block;
+}
+.box-1:hover > img:first-child {
+  display: none;
+}
+.box-2 > img:last-child {
+  display: none;
+}
+.box-2:hover > img:last-child {
+  display: block;
+}
+.box-2:hover > img:first-child {
+  display: none;
+}
+.box-3 > img:last-child {
+  display: none;
+}
+.box-3:hover > img:last-child {
+  display: block;
+}
+.box-3:hover > img:first-child {
+  display: none;
+}
+.box-4 > img:last-child {
+  display: none;
+}
+.box-4:hover > img:last-child {
+  display: block;
+}
+.box-4:hover > img:first-child {
+  display: none;
+}
+.box-5 > img:last-child {
+  display: none;
+}
+.box-5:hover > img:last-child {
+  display: block;
+}
+.box-5:hover > img:first-child {
+  display: none;
+}
+.box-6 > img:last-child {
+  display: none;
+}
+.box-6:hover > img:last-child {
+  display: block;
+}
+.box-6:hover > img:first-child {
+  display: none;
+}
+.box-7 > img:last-child {
+  display: none;
+}
+.box-7:hover > img:last-child {
+  display: block;
+}
+.box-7:hover > img:first-child {
+  display: none;
+}
+.box-8 > img:last-child {
+  display: none;
+}
+.box-8:hover > img:last-child {
+  display: block;
+}
+.box-8:hover > img:first-child {
+  display: none;
+}
+.box-9 > img:last-child {
+  display: none;
+}
+.box-9:hover > img:last-child {
+  display: block;
+}
+.box-9:hover > img:first-child {
+  display: none;
+}
+.gallerylist {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+}
